@@ -1,3 +1,5 @@
+//Weekly Program 1.2
+//BMI Calculate
 #include <stdio.h>
 int main () 
 {
