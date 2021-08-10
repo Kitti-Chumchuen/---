@@ -1,4 +1,4 @@
-//Weekly Program
+//Weekly Program 1.1
 //ผล บวก,ลบ,คูณ,หาร ของตัวเลข 2 ตัว
 #include <stdio.h>
 int main () 
