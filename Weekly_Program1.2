@@ -8,20 +8,21 @@ int main ()
 	scanf("%d", &w);
 	printf("Enter your Height (m) : ");
 	scanf("%d", &h);
-	printf("%d\tYou are : ", w/(h^2));
-	if(w/(h^2) <= 18.5)
+	int x = w/(h^2);
+	printf("%d\tYou are : ", x);
+	if(x <= 18.5)
 	{
 	printf("Under weight");
 	}
-	if(18.5 < w/(h^2) && w/(h^2) <= 24.9)
+	if(18.5 < x && x <= 24.9)
 	{
 	printf("Normal weight");
 	}	
-	if(24.9 < w/(h^2) && w/(h^2) <= 29.9)
+	if(24.9 < x && x <= 29.9)
 	{
 	printf("Over weight");
 	}
-	if(w/(h^2) >=  30)
+	if(x >= 30)
 	{
 	printf("Obesity");
 	}
