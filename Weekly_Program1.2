@@ -8,16 +8,16 @@ int main ()
 	scanf("%d", &w);
 	printf("Enter your Height (m) : ");
 	scanf("%d", &h);
-	printf("%d\tYou are :", w/(h^2));
+	printf("%d\tYou are : ", w/(h^2));
 	if(w/(h^2) <= 18.5)
 	{
 	printf("Under weight");
 	}
-	if(18.5 < w/(h^2) <= 24.9)
+	if(18.5 < w/(h^2) && w/(h^2) <= 24.9)
 	{
 	printf("Normal weight");
 	}	
-	if(24.9 < w/(h^2) <= 29.9)
+	if(24.9 < w/(h^2) && w/(h^2) <= 29.9)
 	{
 	printf("Over weight");
 	}
