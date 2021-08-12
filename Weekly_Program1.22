@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main () 
+{
+	int w, h;
+	printf("Enter your weight (kg) : ");
+	scanf("%d", &w);
+	printf("Enter your Height (m) : ");
+	scanf("%d", &h);
+	int x = w/(h^2);
+	printf(" %d You are : ", x);
+	if(x <= 18.5)
+	{
+	printf("Under weight");
+	}
+	else if(18.5 < x && x <= 24.9)
+	{
+	printf("Normal weight");
+	}	
+	else if(24.9 < x && x <= 29.9)
+	{
+	printf("Over weight");
+	}
+	else if(x >= 30)
+	{
+	printf("Obesity");
+	}
+    return 0;
+}
